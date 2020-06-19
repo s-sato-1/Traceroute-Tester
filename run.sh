@@ -28,8 +28,8 @@ echo '    ' $Bro_Key : $Bro_Val
 echo 'debug -------->'
 
 
-res=`traceroute -p 80 $Target_IP`
-echo $res
+#res=$(traceroute -p 80 $Target_IP)
+#echo $res
 
 
 echo 'debug -------->'
